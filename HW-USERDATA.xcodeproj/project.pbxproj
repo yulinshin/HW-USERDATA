@@ -13,6 +13,7 @@
 		62C2798C25E4E3D900FF9763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C2798A25E4E3D900FF9763 /* Main.storyboard */; };
 		62C2798E25E4E3DB00FF9763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C2798D25E4E3DB00FF9763 /* Assets.xcassets */; };
 		62C2799125E4E3DB00FF9763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C2798F25E4E3DB00FF9763 /* LaunchScreen.storyboard */; };
+		62C2799A25E4E4DF00FF9763 /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2799925E4E4DF00FF9763 /* UserListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		62C2798D25E4E3DB00FF9763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62C2799025E4E3DB00FF9763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62C2799225E4E3DB00FF9763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62C2799925E4E4DF00FF9763 /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				62C2798625E4E3D900FF9763 /* SceneDelegate.swift */,
 				62C2798825E4E3D900FF9763 /* ViewController.swift */,
 				62C2798A25E4E3D900FF9763 /* Main.storyboard */,
+				62C2799925E4E4DF00FF9763 /* UserListTableViewCell.swift */,
 				62C2798D25E4E3DB00FF9763 /* Assets.xcassets */,
 				62C2798F25E4E3DB00FF9763 /* LaunchScreen.storyboard */,
 				62C2799225E4E3DB00FF9763 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C2799A25E4E4DF00FF9763 /* UserListTableViewCell.swift in Sources */,
 				62C2798925E4E3D900FF9763 /* ViewController.swift in Sources */,
 				62C2798525E4E3D900FF9763 /* AppDelegate.swift in Sources */,
 				62C2798725E4E3D900FF9763 /* SceneDelegate.swift in Sources */,
