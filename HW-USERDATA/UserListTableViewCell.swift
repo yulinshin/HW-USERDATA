@@ -8,7 +8,12 @@
 import UIKit
 
 class UserListTableViewCell: UITableViewCell {
-
+    
+ 
+    
+    @IBOutlet weak var userPicThumbnail: UIImageView!
+    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var userAge: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
